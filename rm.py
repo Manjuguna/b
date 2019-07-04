@@ -1,0 +1,5 @@
+t1=int(input())
+t2=list(map(int,input().split()[:t1]))
+t2.sort()
+g=int((len(t2))/2)
+print(t2[g])
